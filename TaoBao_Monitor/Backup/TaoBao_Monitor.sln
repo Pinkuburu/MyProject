@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaoBao_Monitor", "TaoBao_Monitor\TaoBao_Monitor.csproj", "{68051B24-DFB9-43E7-8B0D-D076D12E5420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product_Count", "Product_Count\Product_Count.csproj", "{AF9FEB96-3D9B-4257-B1F3-233F1254E948}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68051B24-DFB9-43E7-8B0D-D076D12E5420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68051B24-DFB9-43E7-8B0D-D076D12E5420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68051B24-DFB9-43E7-8B0D-D076D12E5420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68051B24-DFB9-43E7-8B0D-D076D12E5420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9FEB96-3D9B-4257-B1F3-233F1254E948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9FEB96-3D9B-4257-B1F3-233F1254E948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9FEB96-3D9B-4257-B1F3-233F1254E948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9FEB96-3D9B-4257-B1F3-233F1254E948}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
