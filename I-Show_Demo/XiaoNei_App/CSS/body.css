@@ -1,0 +1,153 @@
+body {
+	font-size: 12px;
+	color: #444;
+	font-family: "Î¢ÈíÑÅºÚ";
+	line-height:20px;
+	text-align:left;
+	margin: 0;
+	}
+a { color:#005eac; text-decoration:none;}
+a:visited { color:#005eac;}
+a:hover { color:#ff9000; text-decoration: underline;}
+a:visited { color:#005eac;}
+div,ul,li {padding:0; margin:0;}
+img {border:0}
+
+.body {width:800px; height:592px; background:url(../Images/bg.jpg); position:relative; margin:0 auto;}
+.title {
+	position:absolute;
+	left:23px;
+	top:63px;
+	height:24px;
+	line-height:24px;
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;
+	}
+.pic1 {
+	position:absolute;
+	left:21px;
+	top:106px;
+	width:188px;
+	height:181px;
+	background:url(../Images/picbg.png);
+	}
+.pic2 {
+	position:absolute;
+	left:213px;
+	top:106px;
+	width:188px;
+	height:181px;
+	background:url(../Images/picbg.png);
+	}
+.pic3 {
+	position:absolute;
+	left:405px;
+	top:106px;
+	width:188px;
+	height:181px;
+	background:url(../Images/picbg.png);
+	}
+.pic4 {
+	position:absolute;
+	left:595px;
+	top:106px;
+	width:188px;
+	height:181px;
+	background:url(../Images/picbg.png);
+	}
+
+.pic5 {
+	position:absolute;
+	left:21px;
+	top:290px;
+	width:188px;
+	height:181px;
+	background:url(../Images/picbg.png);
+	}
+.pic6 {
+	position:absolute;
+	left:213px;
+	top:290px;
+	width:188px;
+	height:181px;
+	background:url(../Images/picbg.png);
+	}
+.pic7 {
+	position:absolute;
+	left:405px;
+	top:290px;
+	width:188px;
+	height:181px;
+	background:url(../Images/picbg.png);
+	}
+.pic8 {
+	position:absolute;
+	left:595px;
+	top:290px;
+	width:188px;
+	height:181px;
+	background:url(../Images/picbg.png);
+	}
+
+.headpic {
+	position:absolute;
+	left:17px;
+	top:16px;
+	width:149px;
+	height:115px;
+	border:1px solid #9d9a78;
+	}
+.headname {
+	position:absolute;
+	left:18px;
+	top:140px;
+	width:80px;
+	height:20px;
+	}
+.headtime {
+	position:absolute;
+	left:128px;
+	top:140px;
+	width:40px;
+	height:20px;
+	text-align:right
+	}
+.page {
+	position:absolute;
+	left:23px;
+	top:475px;
+	width:760px;
+	height:20px;
+	}
+.pagebutton {
+	float:left;
+	clear:right;
+	width:15px;
+	height:15px;
+	background:url(../Images/b1.png);
+	}
+.pg2 {
+	float:left;
+	clear:right;
+	width:15px;
+	height:15px;
+	background:url(../Images/b2.png);
+	}
+.friendlist{
+	position:absolute;
+	left:40px;
+	top:487px;	/*top:487px;*/
+	}
+.headbg {
+	width:61px;
+	height:78px;
+	background:url(../Images/headbg.png);
+	float:left;
+	margin-left:4px;
+	line-height:16px;
+	text-align:center;
+	}
+.headbg img{
+	margin:5px 0 0 -1px;
+	}

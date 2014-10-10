@@ -1,0 +1,11 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\Administrator\Desktop\新建文件夹 (2)\">
+    <file relUrl="Login.aspx" publishTime="2010/12/24 23:14:10" />
+    <file relUrl="Refresh.aspx" publishTime="2010/12/27 9:13:03" />
+    <file relUrl="bin/I-Show_Demo.dll" publishTime="2010/12/27 13:55:10" />
+    <file relUrl="Register.aspx" publishTime="2010/12/24 23:36:21" />
+    <file relUrl="Show.aspx" publishTime="2010/12/27 13:03:46" />
+    <file relUrl="bin/I-Show_Demo.pdb" publishTime="2010/12/27 13:55:10" />
+    <file relUrl="Web.config" publishTime="2010/12/24 18:40:13" />
+  </publishTarget>
+</publishData>

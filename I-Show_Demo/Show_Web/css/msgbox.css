@@ -1,0 +1,86 @@
+﻿.send_mes_div {
+	position:absolute;
+	top:99px;
+	left:190px;
+	margin:0;
+	width:305px;
+	height:202px;
+	background:url(../Images/m_bg.png);
+	display:none;
+}
+.div_off {
+	position:absolute;
+	width:22px;
+	height:22px;
+	left:270px;
+	top:6px;
+}
+.name_div {
+	position:absolute;
+	top:43px;
+	height:22px;
+	width:295px;
+	left:6px;
+}
+.name_div span {
+	position:absolute;
+	text-align:right;
+	height:22px;
+	width:56px;
+}
+.name_div input {
+	position:absolute;
+	left:56px;
+	width:228px;
+	line-height:21px;
+	height:21px;
+	color:#fff;
+	padding-left:3px;
+	background-color:transparent;
+	border:none;
+	background:url(../Images/name_bg.png) no-repeat left center;
+}
+.text_div {
+	position:absolute;
+	top:71px;
+	height:82px;
+	width:295px;
+	left:6px;
+}
+.text_div span {
+	position:absolute;
+	text-align:right;
+	height:22px;
+	width:56px;
+}
+.text_div textarea {
+	position:absolute;
+	overflow:auto;
+	left:56px;
+	width:226px;
+	padding:2px 2px 2px 3px;
+	height:78px;
+	width:228px;
+	color:#fff;
+	background-color:transparent;
+	border:none;
+	background:url(../Images/text_bg.png) no-repeat left center;
+	line-height:18px;
+}
+.sub_button {
+	position:absolute;
+	left:6px;
+	width:295px;
+	top:167px;
+	height:24px;
+}
+.send_b {
+	position:absolute;
+	left:141px;
+	height:24px;
+}
+.reset_b {
+	position:absolute;
+	left:216px;
+	height:24px;
+}

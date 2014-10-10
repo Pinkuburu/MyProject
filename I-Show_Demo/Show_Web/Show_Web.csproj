@@ -1,0 +1,372 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{998611F8-2891-4C1E-A6EB-1F53096B8C76}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Show_Web</RootNamespace>
+    <AssemblyName>Show_Web</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ConcernList.aspx" />
+    <Content Include="ConcernOp.aspx" />
+    <Content Include="CreateVcode.aspx" />
+    <Content Include="css\dialog.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\index_1.css" />
+    <Content Include="css\index_2.css" />
+    <Content Include="css\msgbox.css" />
+    <Content Include="css\reg.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="FansList.aspx" />
+    <Content Include="Images\add.jpg" />
+    <Content Include="Images\add_hover.jpg" />
+    <Content Include="Images\ban.jpg" />
+    <Content Include="Images\ban_download.png" />
+    <Content Include="Images\ban_register.png" />
+    <Content Include="Images\before.jpg" />
+    <Content Include="Images\before.png" />
+    <Content Include="Images\before_ok.jpg" />
+    <Content Include="Images\before_ok.png" />
+    <Content Include="Images\bottom_bg.gif" />
+    <Content Include="Images\core.gif" />
+    <Content Include="Images\cut.jpg" />
+    <Content Include="Images\cut_hover.jpg" />
+    <Content Include="Images\Error.gif" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\first.jpg" />
+    <Content Include="Images\first.png" />
+    <Content Include="Images\first_ok.jpg" />
+    <Content Include="Images\first_ok.png" />
+    <Content Include="Images\float_bg.png" />
+    <Content Include="Images\go.jpg" />
+    <Content Include="Images\go.png" />
+    <Content Include="Images\go_active.jpg" />
+    <Content Include="Images\go_active.png" />
+    <Content Include="Images\go_hover.jpg" />
+    <Content Include="Images\go_hover.png" />
+    <Content Include="Images\header_bg.gif" />
+    <Content Include="Images\home_bg.png" />
+    <Content Include="Images\img_bg2.jpg" />
+    <Content Include="Images\input_bg1.jpg" />
+    <Content Include="Images\input_bg1.png" />
+    <Content Include="Images\input_bg2.jpg" />
+    <Content Include="Images\input_bg2.png" />
+    <Content Include="Images\last.jpg" />
+    <Content Include="Images\last.png" />
+    <Content Include="Images\last_ok.jpg" />
+    <Content Include="Images\last_ok.png" />
+    <Content Include="Images\line1.gif" />
+    <Content Include="Images\line1.jpg" />
+    <Content Include="Images\line2.jpg" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\middle_bg.gif" />
+    <Content Include="Images\middle_bottom.gif" />
+    <Content Include="Images\middle_left.png" />
+    <Content Include="Images\middle_top.gif" />
+    <Content Include="Images\m_bg.png" />
+    <Content Include="Images\name_bg.jpg" />
+    <Content Include="Images\name_bg.png" />
+    <Content Include="Images\name_bg1.gif" />
+    <Content Include="Images\nav_bg.gif" />
+    <Content Include="Images\nav_download.gif" />
+    <Content Include="Images\nav_index.gif" />
+    <Content Include="Images\nav_intro.gif" />
+    <Content Include="Images\news_title.png" />
+    <Content Include="Images\news_title1.png" />
+    <Content Include="Images\next.jpg" />
+    <Content Include="Images\next.png" />
+    <Content Include="Images\next_ok.jpg" />
+    <Content Include="Images\next_ok.png" />
+    <Content Include="Images\no1.png" />
+    <Content Include="Images\no2.png" />
+    <Content Include="Images\no3.png" />
+    <Content Include="Images\no4.png" />
+    <Content Include="Images\no5.png" />
+    <Content Include="Images\no6.png" />
+    <Content Include="Images\off_button.png" />
+    <Content Include="Images\off_button_active.png" />
+    <Content Include="Images\off_button_hover.png" />
+    <Content Include="Images\pao.jpg" />
+    <Content Include="Images\pao_hover.jpg" />
+    <Content Include="Images\pic_bg.gif" />
+    <Content Include="Images\register_bg.png" />
+    <Content Include="Images\register_bg1.png" />
+    <Content Include="Images\reset_button.png" />
+    <Content Include="Images\reset_button_hover.png" />
+    <Content Include="Images\r_input_bg1.png" />
+    <Content Include="Images\r_input_bg2.png" />
+    <Content Include="Images\search.jpg" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\search_active.jpg" />
+    <Content Include="Images\search_hover.jpg" />
+    <Content Include="Images\send_button.png" />
+    <Content Include="Images\send_button_hover.png" />
+    <Content Include="Images\send_mes_bg.png" />
+    <Content Include="Images\show_bg.png" />
+    <Content Include="Images\star1.jpg" />
+    <Content Include="Images\star2.jpg" />
+    <Content Include="Images\star3.jpg" />
+    <Content Include="Images\star4.jpg" />
+    <Content Include="Images\star_bg.png" />
+    <Content Include="Images\star_title.png" />
+    <Content Include="Images\sub1.png" />
+    <Content Include="Images\sub1_active.png" />
+    <Content Include="Images\sub1_hover.png" />
+    <Content Include="Images\text_bg.png" />
+    <Content Include="Images\tm2008-select.gif" />
+    <Content Include="Images\未标题-1.gif" />
+    <Content Include="Index.aspx" />
+    <Content Include="index.html" />
+    <Content Include="JS\ajax.js" />
+    <Content Include="JS\common.js" />
+    <Content Include="JS\DD_belatedPNG_0.0.8a.js" />
+    <Content Include="JS\dialog.js" />
+    <Content Include="JS\game.js" />
+    <Content Include="JS\index.js" />
+    <Content Include="JS\jquery-1.4.2.min.js" />
+    <Content Include="JS\jquery.paginate.js" />
+    <Content Include="JS\jquery.timers.js" />
+    <Content Include="JS\main.js" />
+    <Content Include="JS\reg.js" />
+    <Content Include="JS\SelectList.js" />
+    <Content Include="JS\dialog_reg.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logins.aspx" />
+    <Content Include="MessageBox.aspx" />
+    <Content Include="Modify.aspx" />
+    <Content Include="MsgTest.aspx" />
+    <Content Include="Page.aspx" />
+    <Content Include="Refresh.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Register1.aspx" />
+    <Content Include="RegOp.aspx" />
+    <Content Include="Search.aspx" />
+    <Content Include="Show.aspx" />
+    <Content Include="Show1.aspx" />
+    <Content Include="Test_Dialog.aspx" />
+    <Content Include="Version.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classlibrary.cs" />
+    <Compile Include="ConcernList.aspx.cs">
+      <DependentUpon>ConcernList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConcernList.aspx.designer.cs">
+      <DependentUpon>ConcernList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConcernOp.aspx.cs">
+      <DependentUpon>ConcernOp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConcernOp.aspx.designer.cs">
+      <DependentUpon>ConcernOp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateVcode.aspx.cs">
+      <DependentUpon>CreateVcode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateVcode.aspx.designer.cs">
+      <DependentUpon>CreateVcode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cuter.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Encryptor.cs" />
+    <Compile Include="EncryptTransformer.cs" />
+    <Compile Include="FansList.aspx.cs">
+      <DependentUpon>FansList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FansList.aspx.designer.cs">
+      <DependentUpon>FansList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HttpProc_CN.cs" />
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logins.aspx.cs">
+      <DependentUpon>Logins.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logins.aspx.designer.cs">
+      <DependentUpon>Logins.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox.aspx.cs">
+      <DependentUpon>MessageBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MessageBox.aspx.designer.cs">
+      <DependentUpon>MessageBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modify.aspx.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modify.aspx.designer.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MsgTest.aspx.cs">
+      <DependentUpon>MsgTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MsgTest.aspx.designer.cs">
+      <DependentUpon>MsgTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page.aspx.cs">
+      <DependentUpon>Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page.aspx.designer.cs">
+      <DependentUpon>Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Refresh.aspx.cs">
+      <DependentUpon>Refresh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Refresh.aspx.designer.cs">
+      <DependentUpon>Refresh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register1.aspx.cs">
+      <DependentUpon>Register1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register1.aspx.designer.cs">
+      <DependentUpon>Register1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegOp.aspx.cs">
+      <DependentUpon>RegOp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegOp.aspx.designer.cs">
+      <DependentUpon>RegOp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Show.aspx.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Show.aspx.designer.cs">
+      <DependentUpon>Show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Show1.aspx.cs">
+      <DependentUpon>Show1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Show1.aspx.designer.cs">
+      <DependentUpon>Show1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SQLHelper.cs" />
+    <Compile Include="SqlLibrary.cs" />
+    <Compile Include="StringItem.cs" />
+    <Compile Include="Test_Dialog.aspx.cs">
+      <DependentUpon>Test_Dialog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test_Dialog.aspx.designer.cs">
+      <DependentUpon>Test_Dialog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="Version.aspx.cs">
+      <DependentUpon>Version.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Version.aspx.designer.cs">
+      <DependentUpon>Version.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5957</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
