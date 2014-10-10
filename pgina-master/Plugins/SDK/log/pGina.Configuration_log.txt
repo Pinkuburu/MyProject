@@ -1,0 +1,14 @@
+2013-03-21 14:46:06,678 [1324|1|INFO ] Startup: Starting up, log4net configured from: C:\Users\Administrator\Desktop\pgina-master\Plugins\SDK\log4net.config
+2013-03-21 14:46:06,751 [1324|1|DEBUG] PluginLoader: Initializing
+2013-03-21 14:46:06,769 [1324|1|WARN ] PluginLoader: Skipping invalid plugin directory: C:\Users\Administrator\Desktop\pgina-master\pGina\src\bin\Plugins\Core
+2013-03-21 14:46:06,770 [1324|1|WARN ] PluginLoader: Skipping invalid plugin directory: C:\Users\Administrator\Desktop\pgina-master\pGina\src\bin\Plugins\Contrib
+2013-03-21 14:46:06,770 [1324|1|DEBUG] PluginLoader: Plugins loaded, list follows: 
+2013-03-21 14:46:07,085 [1324|1|WARN ] PluginLoader: Skipping invalid plugin directory: C:\Users\Administrator\Desktop\pgina-master\pGina\src\bin\Plugins\Core
+2013-03-21 14:46:07,086 [1324|1|WARN ] PluginLoader: Skipping invalid plugin directory: C:\Users\Administrator\Desktop\pgina-master\pGina\src\bin\Plugins\Contrib
+2013-03-22 12:03:35,472 [8680|1|INFO ] Startup: Starting up, log4net configured from: D:\MyProject\pgina-master\Plugins\SDK\log4net.config
+2013-03-22 12:03:35,922 [8680|1|DEBUG] PluginLoader: Initializing
+2013-03-22 12:03:36,072 [8680|1|WARN ] PluginLoader: Skipping invalid plugin directory: C:\Users\Administrator\Desktop\pgina-master\pGina\src\bin\Plugins\Core
+2013-03-22 12:03:36,072 [8680|1|WARN ] PluginLoader: Skipping invalid plugin directory: C:\Users\Administrator\Desktop\pgina-master\pGina\src\bin\Plugins\Contrib
+2013-03-22 12:03:36,072 [8680|1|DEBUG] PluginLoader: Plugins loaded, list follows: 
+2013-03-22 12:03:36,502 [8680|1|WARN ] PluginLoader: Skipping invalid plugin directory: C:\Users\Administrator\Desktop\pgina-master\pGina\src\bin\Plugins\Core
+2013-03-22 12:03:36,502 [8680|1|WARN ] PluginLoader: Skipping invalid plugin directory: C:\Users\Administrator\Desktop\pgina-master\pGina\src\bin\Plugins\Contrib
