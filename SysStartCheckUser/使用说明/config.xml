@@ -1,0 +1,50 @@
+﻿<System_Config>  
+  <s_eid>10001</s_eid>
+  <s_uid>wangcai</s_uid>
+  <s_pwd_md5>463c11f3500205cc233</s_pwd_md5>
+  <s_cardno>15910623607</s_cardno>
+  <s_sms_head>工作呵呵,</s_sms_head>
+  <s_System_User>-1</s_System_User>
+  <g_log>1</g_log>
+  <g_net_log>0</g_net_log>
+  <rem>
+<![CDATA[
+当有新用户登陆电脑后系统自动发送短信提醒客户,必须是联网情况下
+
+s_eid 企业ID号,如果注册个人帐户,设置0
+s_uid 企业登陆帐号
+s_pwd_md5 登陆密码的MD5
+s_cardno 发送的手机号码多个之间用半角逗号隔开(最多100个)例如 13510100202,13220203030
+s_sms_head 短信提醒抬头，不要超出10个字符。
+需要短信提醒的客户请到www.woxp.cn注册短信帐号免费送20条,
+以上参数对系统登陆需要短信提醒的用户使用,有用户登陆后,系统自动发送短信提醒.
+
+g_net_log 一般保持忽略，主要是记录netstat命令。值1或0
+s_System_User 授权的用户，只有指定的用户不被注销，其它登陆的用户全被注销。-1只短信提醒不执行注销。空值代表忽略，
+g_log 是否激活日志 1激活0不激活
+
+调用例子系统自动启动运行
+start "" "SysStartCheckUser.exe" -AutoRun 1
+
+外部参数调用命令
+1. -AutoRun 系统启动后自动运行 
+比如 
+SysStartCheckUser.exe -AutoRun 1 自动运行 
+SysStartCheckUser.exe -AutoRun 0 撤销自动运行
+2.外部调用发短信功能70字内
+-SendMsg 短信内容
+比如 
+start "" "SysStartCheckUser.exe" -SendMsg 短信通知
+3.关机调用参数 -ShutDown
+-ShutDown 关机时调用，发送关机短信.
+start "" "SysStartCheckUser.exe" -ShutDown
+4.定时检测非法登陆用户 -Time 秒 适合服务器运行，防止黑客入侵服务器
+start "" "SysStartCheckUser.exe" -Time 60
+系统每60秒检测一次是否有非法会话的用户。发现就注销并短信报警
+使用说明:
+1.当系统启动或用户登陆时运行本程序。会短信发送
+2.当系统关机或重启时运行本程序，会短信发送
+3.可以外部调用发短信命令
+
+]]></rem>	
+</System_Config>
