@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQRobot_Module", "QQRobot_Module\QQRobot_Module.csproj", "{0DC23459-221B-4413-9279-34668397ED67}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQRobot_InterFace_vs2005", "QQRobot_InterFace_vs2005\QQRobot_InterFace_vs2005.csproj", "{FA62D5B2-23CB-45ED-9D6E-587475DF9042}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DC23459-221B-4413-9279-34668397ED67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC23459-221B-4413-9279-34668397ED67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC23459-221B-4413-9279-34668397ED67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC23459-221B-4413-9279-34668397ED67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA62D5B2-23CB-45ED-9D6E-587475DF9042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA62D5B2-23CB-45ED-9D6E-587475DF9042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA62D5B2-23CB-45ED-9D6E-587475DF9042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA62D5B2-23CB-45ED-9D6E-587475DF9042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

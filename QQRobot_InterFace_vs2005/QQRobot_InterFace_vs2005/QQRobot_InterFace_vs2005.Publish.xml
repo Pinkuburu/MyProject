@@ -1,0 +1,15 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\Administrator\Desktop\新建文件夹\">
+    <file relUrl="Wap.aspx" publishTime="2011/1/13 15:01:23" />
+    <file relUrl="bin/QQRobot_InterFace_vs2005.dll" publishTime="2011/4/6 10:40:37" />
+    <file relUrl="bin/QQRobot_Module.pdb" publishTime="2011/3/25 13:40:57" />
+    <file relUrl="Web.config" publishTime="2010/11/16 16:32:06" />
+    <file relUrl="bin/databaseitem.dll" publishTime="2010/11/19 17:11:29" />
+    <file relUrl="bin/QQRobot_Module.dll" publishTime="2011/3/25 13:40:58" />
+    <file relUrl="bin/NetRobotApi.dll" publishTime="2010/11/21 21:29:31" />
+    <file relUrl="bin/servermanager.dll" publishTime="2010/11/19 17:43:00" />
+    <file relUrl="bin/QQRobot_InterFace_vs2005.pdb" publishTime="2011/4/6 10:40:36" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="2008/5/4 16:09:38" />
+    <file relUrl="QQRobot_Interface.aspx" publishTime="2010/11/16 16:36:40" />
+  </publishTarget>
+</publishData>
