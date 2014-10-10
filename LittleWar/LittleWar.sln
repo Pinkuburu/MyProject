@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleWar", "LittleWar\LittleWar.csproj", "{128C1E5D-D279-43A9-976C-D67DBD8D81F7}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoUpdate", "AutoUpdate\AutoUpdate.csproj", "{300DF611-E6A4-447F-86CB-FD409C50CE8A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{385A609C-358F-4AE7-A9AF-435BF8547B0A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleWar_Web", "LittleWar_Web\LittleWar_Web.csproj", "{FED1326E-206E-485E-99EA-537C9E9D02FD}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{128C1E5D-D279-43A9-976C-D67DBD8D81F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128C1E5D-D279-43A9-976C-D67DBD8D81F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128C1E5D-D279-43A9-976C-D67DBD8D81F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128C1E5D-D279-43A9-976C-D67DBD8D81F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300DF611-E6A4-447F-86CB-FD409C50CE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300DF611-E6A4-447F-86CB-FD409C50CE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300DF611-E6A4-447F-86CB-FD409C50CE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300DF611-E6A4-447F-86CB-FD409C50CE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385A609C-358F-4AE7-A9AF-435BF8547B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385A609C-358F-4AE7-A9AF-435BF8547B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385A609C-358F-4AE7-A9AF-435BF8547B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385A609C-358F-4AE7-A9AF-435BF8547B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED1326E-206E-485E-99EA-537C9E9D02FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED1326E-206E-485E-99EA-537C9E9D02FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED1326E-206E-485E-99EA-537C9E9D02FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED1326E-206E-485E-99EA-537C9E9D02FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

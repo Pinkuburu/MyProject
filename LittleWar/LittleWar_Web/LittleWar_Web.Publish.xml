@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\Administrator\Desktop\新建文件夹\">
+    <file relUrl="bin/LittleWar_Web.dll" publishTime="2011/1/6 16:41:06" />
+    <file relUrl="bin/LittleWar_Web.pdb" publishTime="2011/1/6 16:41:06" />
+    <file relUrl="bin/Newtonsoft.Json.Net20.dll" publishTime="2010/8/14 13:55:28" />
+    <file relUrl="Default.aspx" publishTime="2011/1/6 13:57:58" />
+    <file relUrl="Web.config" publishTime="2011/1/6 13:14:25" />
+  </publishTarget>
+</publishData>
