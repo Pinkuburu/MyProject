@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Administrator\Desktop\新建文件夹" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="images/joyo_2011021201.gif" publishTime="04/14/2011 16:22:26" />
+    <file relUrl="images/google_2011021201.gif" publishTime="04/14/2011 16:17:23" />
+    <file relUrl="images/baidu_video_2011021201.gif" publishTime="04/14/2011 16:18:32" />
+    <file relUrl="js/main.js" publishTime="06/16/2011 13:52:06" />
+    <file relUrl="css/iepngfix.htc" publishTime="05/17/2011 16:22:36" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="04/02/2011 10:13:12" />
+    <file relUrl="images/youku_2011021701.gif" publishTime="04/14/2011 16:18:09" />
+    <file relUrl="images/taobao_2011021201.gif" publishTime="04/14/2011 16:21:58" />
+    <file relUrl="data/start.js" publishTime="04/13/2011 10:05:39" />
+    <file relUrl="images/multisearch_2011021201.gif" publishTime="04/14/2011 16:17:47" />
+    <file relUrl="images/baidu_map_2011021201.gif" publishTime="04/14/2011 16:21:27" />
+    <file relUrl="images/baidu_image_2011021201.gif" publishTime="04/14/2011 16:19:25" />
+    <file relUrl="images/bg.png" publishTime="04/12/2011 16:36:40" />
+    <file relUrl="images/m_lucky_stars.png" publishTime="04/13/2011 17:57:59" />
+    <file relUrl="images/baidu_mp3_2011021201.gif" publishTime="04/14/2011 16:19:59" />
+    <file relUrl="images/google_video_2011021201.gif" publishTime="04/14/2011 16:18:50" />
+    <file relUrl="data/daily.js" publishTime="04/14/2011 14:07:41" />
+    <file relUrl="images/360buy_2011021201.gif" publishTime="04/14/2011 16:22:42" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="04/02/2011 10:13:12" />
+    <file relUrl="css/style.css" publishTime="05/18/2011 10:00:31" />
+    <file relUrl="images/google_map_2011021201.gif" publishTime="04/14/2011 16:21:43" />
+    <file relUrl="images/logo/today.png" publishTime="04/14/2011 10:35:32" />
+    <file relUrl="Default.aspx" publishTime="04/13/2011 18:35:47" />
+    <file relUrl="images/google_translate_2011021201.gif" publishTime="04/14/2011 16:23:01" />
+    <file relUrl="bin/MySQLDriverCS.dll" publishTime="07/13/2007 04:48:46" />
+    <file relUrl="images/baidu_knowledge_2011021201.gif" publishTime="04/14/2011 16:20:31" />
+    <file relUrl="data/search.js" publishTime="04/13/2011 10:10:03" />
+    <file relUrl="images/google_music_2011021201.gif" publishTime="04/14/2011 16:20:16" />
+    <file relUrl="images/wiki_2011021701.gif" publishTime="04/14/2011 16:21:04" />
+    <file relUrl="bin/BBS-Show.pdb" publishTime="06/14/2011 16:58:48" />
+    <file relUrl="images/xunlei_2011021701.gif" publishTime="04/14/2011 16:19:10" />
+    <file relUrl="Web.config" publishTime="04/14/2011 13:40:43" />
+    <file relUrl="images/google_image_2011021201.gif" publishTime="04/14/2011 16:19:40" />
+    <file relUrl="Index.aspx" publishTime="06/16/2011 13:52:53" />
+    <file relUrl="images/dd_2011021201.gif" publishTime="04/14/2011 16:22:12" />
+    <file relUrl="images/baidu_2011021201.gif" publishTime="04/14/2011 16:14:45" />
+    <file relUrl="js/outerlogin.js" publishTime="06/14/2011 13:35:51" />
+    <file relUrl="images/baidu_baike_2011021701.gif" publishTime="04/14/2011 16:20:47" />
+    <file relUrl="bin/BBS-Show.dll" publishTime="06/14/2011 16:58:48" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="04/02/2011 10:13:12" />
+  </publishProfile>
+</publishData>
