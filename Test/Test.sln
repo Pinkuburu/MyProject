@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPU信息读取", "CPU信息读取\CPU信息读取.csproj", "{25C27E6D-F1CE-4150-8487-ABA3A23374C8}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPU测试", "CPU测试\CPU测试.csproj", "{BD005250-3C81-4D21-805F-1BE46A3491D7}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMI调用测试", "WMI调用测试\WMI调用测试.csproj", "{7BAE5A50-B38B-4982-9241-9CED478C4A18}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "中文参数测试", "中文参数测试\中文参数测试.csproj", "{8128C773-73B0-49F3-81A7-1B8F62C1F102}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMD操作类", "CMD操作类\CMD操作类.csproj", "{5D4EE8AA-08FA-4034-B86C-024534C8F281}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25C27E6D-F1CE-4150-8487-ABA3A23374C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C27E6D-F1CE-4150-8487-ABA3A23374C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C27E6D-F1CE-4150-8487-ABA3A23374C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C27E6D-F1CE-4150-8487-ABA3A23374C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD005250-3C81-4D21-805F-1BE46A3491D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD005250-3C81-4D21-805F-1BE46A3491D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD005250-3C81-4D21-805F-1BE46A3491D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD005250-3C81-4D21-805F-1BE46A3491D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BAE5A50-B38B-4982-9241-9CED478C4A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BAE5A50-B38B-4982-9241-9CED478C4A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BAE5A50-B38B-4982-9241-9CED478C4A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BAE5A50-B38B-4982-9241-9CED478C4A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8128C773-73B0-49F3-81A7-1B8F62C1F102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8128C773-73B0-49F3-81A7-1B8F62C1F102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8128C773-73B0-49F3-81A7-1B8F62C1F102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8128C773-73B0-49F3-81A7-1B8F62C1F102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4EE8AA-08FA-4034-B86C-024534C8F281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4EE8AA-08FA-4034-B86C-024534C8F281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4EE8AA-08FA-4034-B86C-024534C8F281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4EE8AA-08FA-4034-B86C-024534C8F281}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
