@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQRobot", "QQRobot\QQRobot.csproj", "{96CB8766-2E36-4369-944D-041A57F7F5CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QQRobot_win", "QQRobot_win\QQRobot_win.csproj", "{CA7F08E2-2767-43F6-A57D-FF4A2E415FAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96CB8766-2E36-4369-944D-041A57F7F5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CB8766-2E36-4369-944D-041A57F7F5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CB8766-2E36-4369-944D-041A57F7F5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CB8766-2E36-4369-944D-041A57F7F5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA7F08E2-2767-43F6-A57D-FF4A2E415FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7F08E2-2767-43F6-A57D-FF4A2E415FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7F08E2-2767-43F6-A57D-FF4A2E415FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7F08E2-2767-43F6-A57D-FF4A2E415FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
