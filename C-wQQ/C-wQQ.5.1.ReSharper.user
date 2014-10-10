@@ -1,0 +1,72 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.Designer.cs" caret="49" fromTop="3" />
+      <File id="0DC23459-221B-4413-9279-34668397ED67/f:QQRobot_Plugins.cs" caret="1282" fromTop="9" />
+      <File id="0DC23459-221B-4413-9279-34668397ED67/f:SearchInfo.cs" caret="362" fromTop="14" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="11641" fromTop="17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="2139" fromTop="28" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="2399" fromTop="20" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="1789" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="348" fromTop="11" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="8861" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="3779" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="3938" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="4627" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="10384" fromTop="18" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="11215" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="12732" fromTop="9" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="8229" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="7537" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="7134" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="6765" fromTop="7" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="6362" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="5993" fromTop="7" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="4862" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="2953" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="6526" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="7297" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="5754" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="5234" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="1256" fromTop="19" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="943" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="767" fromTop="18" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="4317" fromTop="17" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="11423" fromTop="14" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="11691" fromTop="20" />
+      <File id="990A76D8-B39B-4C01-B861-A3B00422AA47/f:Main.cs" caret="11005" fromTop="4" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="string" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="command" priority="0" />
+      <Item value="api" priority="0" />
+      <Item value="var" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
