@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\Administrator\Desktop\新建文件夹\">
+    <file relUrl="bin/QQRobot_InterFace.dll" publishTime="11/09/2010 14:17:15" />
+    <file relUrl="QQRobot_Interface.aspx" publishTime="11/09/2010 14:17:15" />
+    <file relUrl="bin/NetRobotApi.dll" publishTime="10/31/2010 13:12:48" />
+    <file relUrl="bin/QQRobot_InterFace.pdb" publishTime="11/09/2010 14:17:15" />
+    <file relUrl="Web.config" publishTime="11/09/2010 14:15:07" />
+  </publishTarget>
+</publishData>
